@@ -1,5 +1,5 @@
 # Example 3:
-## A red sphere in a basic GLUT windows with black background
+## Draw from vertex array (with buffer)
 
 * glew.h must include before glut.h
 * openGL buffer:
