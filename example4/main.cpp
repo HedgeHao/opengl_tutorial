@@ -4,6 +4,7 @@
 
 using namespace std;
 
+float angle = 0;
 void display()
 {
   glClear(GL_COLOR_BUFFER_BIT);
@@ -14,14 +15,11 @@ void display()
 
   glColor3f(0, 0, 1);
   // glTranslatef(-0.2, 0.2, 0.1);
-  glRotatef(45, 0, 0, 1);
+  glRotatef(angle, 1, 1, 0);
   glutWireTeapot(0.2);
 
   glFlush();
-}
-
-void reshape()
-{
+  angle += 0.05;
 }
 
 int main(int argc, char **argv)
@@ -36,6 +34,7 @@ int main(int argc, char **argv)
   glClearColor(1, 1, 1, 0.0);
 
   glutDisplayFunc(display);
+  glutIdleFunc(display);
 
   glutMainLoop();
 

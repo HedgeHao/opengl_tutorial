@@ -3,7 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                "${default}"
+                "${default}",
+                "/usr/include/opencv4"
             ],
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c11",
