@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "Dockerfile*": "dockerfile",
+    "*.conf": "yaml",
+    "iostream": "cpp"
+  }
+}
