@@ -1,1 +1,3 @@
 build/
+example0/*.o
+example0/*.so

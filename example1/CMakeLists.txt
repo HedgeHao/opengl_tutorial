@@ -6,7 +6,7 @@ add_executable( ${PROJECT_NAME} "" )
 set_target_properties( ${PROJECT_NAME} PROPERTIES
 	CXX_STANDARD 14
 	CXX_EXTENSIONS OFF
-    OUTPUT_NAME "main")
+    OUTPUT_NAME "example1")
 
 set ( source_code
 "main.cpp"
